@@ -57,6 +57,20 @@ $enable-negative-margins: true;
 .hr-dashed {
     border-top: 1px dashed;
 }
+.navbar .nav-link {
+  background: $primary;
+  margin-right: 1rem;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  color: $white !important;
+  transition: background 0.2s;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  background: $success;
+  color: $white !important;
+}
+
 // ...
 
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`

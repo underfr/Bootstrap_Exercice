@@ -7130,6 +7130,21 @@ textarea.form-control-lg {
   border-top: 1px dashed;
 }
 
+.navbar .nav-link {
+  background: #0d6efd;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #fff !important;
+  transition: background 0.2s;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  background: #198754;
+  color: #fff !important;
+}
+
 .align-baseline {
   vertical-align: baseline !important;
 }
